@@ -1,0 +1,210 @@
+body{
+    font: 15px/1.5 normal;
+    padding: 0;
+    margin: 0;
+   
+}
+/*global*/
+
+#boxes h2{
+    font-size: 25px;
+    }
+#boxes h3{
+    font-weight: normal;
+}    
+    #circles h2{
+    font-size: 25px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 15px;
+
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.b1{
+    height: 38px;
+    background:#ff0040;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.dark{
+    padding: 15px;
+    background: linear-gradient(to right, #00ff00 0%, #ff0040 100%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* Header*/
+header{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ff0040 3px solid;
+    }
+header{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+ 
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: #ff0040;
+    font-weight: bold;
+}
+header a:hover{
+    color: orange;
+    font-weight: bold;
+}
+/*  showcase */
+#showcase{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 300px;
+    background: url('./pics/IMG-20200827-WA0119.jpg')  0, 400px, 0, 0px;
+    text-align: center;
+    color:snow;
+    }
+#showcase h1{
+    margin-top: 100px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    }
+#showcase p{
+    font-size: 20px;
+}
+#Introduction{
+    background: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+    color: black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#Introduction h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0040;
+    
+}
+/*boxes*/
+ .current2 {
+    color: #ff0040;
+    font-weight: bold;
+     font-style: italic;
+}
+
+#boxes{
+    margin-top: 15px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    
+}
+
+#boxes .box img{
+    width: 210px;
+}
+
+#circles{
+    margin-top: 15px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);}
+
+
+#circles .circle img{
+    width: 210px;
+}
+
+
+
+/* CONTACT SECTION*/
+
+#main{
+    margin-top: 15px;
+    width: 100%;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+/*side bar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    
+}
+  
+/*main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+    padding-left: 20px;
+    margin-top: 10px;}
+#main .container2{
+    width: 80%;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 17px;
+     
+    
+}
+   
+    
+   
+
+#main2{
+    
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);}
+
+#main2 .contact{
+    margin-top:  15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 20px;   
+}
+
+ul#services li{
+    list-style: none;
+    padding: 15px;
+    border: #ff0040 solid 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+
+    
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    margin-top: 20px;
+    color: snow;
+    background: linear-gradient(#076DFF,#65a5ff);
+    text-align: center;
+}
+
+
+
+
+
+
+
